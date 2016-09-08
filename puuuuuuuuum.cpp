@@ -10,8 +10,8 @@ void main(void){
 		printf("Enter Number = ");
 		scanf("%d",&num);
 		for(i=1;i<=12;i++)
-			printf("%3d x %3d = %3d\n",num,i,num*i);
-			printf("Do you want to continue? (Y/N)?");
+			printf("%3d X %3d = %3d\n",num,i,num*i);
+			printf("Do you want to continue? (Y/N)");
 			c=getche();
 	}while(c=='Y'||c=='y')
 getch();
