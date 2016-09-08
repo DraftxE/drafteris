@@ -13,6 +13,6 @@ void main(void){
 			printf("%3d X %3d = %3d\n",num,i,num*i);
 			printf("Do you want to continue? (Y/N)");
 			c=getche();
-	}while(c=='Y'||c=='y')
+	}while(c=='Y'||c=='y');
 getch();
 }
